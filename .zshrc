@@ -33,7 +33,7 @@ then
     eval "$(anyenv init -)"
 fi
 
-]# set theme via `starship`
+# set theme via `starship`
 eval "$(starship init zsh)"
 
 # for starship(zsh) and CDK
