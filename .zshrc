@@ -32,3 +32,6 @@ then
     export PATH="$HOME/.anyenv/bin:$PATH"
     eval "$(anyenv init -)"
 fi
+
+]# set theme via `starship`
+eval "$(starship init zsh)"
