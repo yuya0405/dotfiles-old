@@ -1,0 +1,15 @@
+# custom.***と言う名前で認識してくれる。
+[custom.cdk]
+# プロンプトに表示される内容。実行結果が$output変数に格納される。
+command = "echo $CDK_VERSION"
+# cdkのバージョンを表示する条件。
+# 実行するディレクトリに`cdk.json`がある場合
+when = """ test -e cdk.json """
+# シンボル
+symbol = "cdk: "
+# 表示のフォーマット
+format = "[$symbol$output]($style)"
+
+[git_branch]
+symbol = "🌱 "
+truncation_symbol = ""

@@ -32,3 +32,9 @@ then
     export PATH="$HOME/.anyenv/bin:$PATH"
     eval "$(anyenv init -)"
 fi
+
+# set theme via `starship`
+eval "$(starship init zsh)"
+
+# for starship(zsh) and CDK
+export CDK_VERSION="$(cdk --version | awk '{printf $1}')"
