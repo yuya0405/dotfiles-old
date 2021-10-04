@@ -9,3 +9,7 @@ when = """ test -e cdk.json """
 symbol = "cdk: "
 # 表示のフォーマット
 format = "[$symbol$output]($style)"
+
+[git_branch]
+symbol = "🌱 "
+truncation_symbol = ""
