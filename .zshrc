@@ -38,3 +38,6 @@ eval "$(starship init zsh)"
 
 # for starship(zsh) and CDK
 export CDK_VERSION="$(cdk --version | awk '{printf $1}')"
+
+export PATH=$PATH:/Users/benika/jdk-17.jdk/Contents/Home
+export JAVA_HOME="/Users/benika/jdk-17.jdk/Contents/Home"
