@@ -16,3 +16,6 @@ make
 
 source ~/.zshrc
 ```
+
+# URL
+- https://github.com/zdharma-continuum/zinit
