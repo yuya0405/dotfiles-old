@@ -1,0 +1,14 @@
+[push]
+ 	default = current
+[color]
+ 	ui = true
+[color "status"]
+	added = green
+	changed = red
+	untracked = blue
+	unmerged = yellow
+[alias]
+	s = status
+	a = add
+	cm = commit -m
+	l = log --graph
