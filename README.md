@@ -1,2 +1,13 @@
-# dotfiles
-新しいmacを買った時に超便利
+# How to Install
+```
+# Clone this repository
+git clone https://github.com/yuya0405/dotfiles
+
+# Move to the repository
+cd dotfiles
+
+# Initialize some additional packages
+make
+
+source ~/.zshrc
+```
