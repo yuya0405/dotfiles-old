@@ -5,7 +5,7 @@
 [color "status"]
 	added = green
 	changed = red
-	untracked = blue
+	untracked = yellow
 	unmerged = yellow
 [alias]
 	s = status
