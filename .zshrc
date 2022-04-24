@@ -4,6 +4,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+export VENV_ROOT="$HOME/.venv"
+export PATH="$VENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 export PATH="$PATH:/Users/benika/flutter/bin"
 
 alias jn='jupyter notebook'
@@ -41,3 +45,4 @@ export CDK_VERSION="$(cdk --version | awk '{printf $1}')"
 
 export PATH=$PATH:/Users/benika/jdk-11.0.2.jdk/Contents/Home
 export JAVA_HOME="/Users/benika/jdk-11.0.2.jdk/Contents/Home"
+export PATH="/usr/local/opt/python@3.7/bin:$PATH"
