@@ -1,3 +1,8 @@
+# Preparation
+```
+cargo install zoxide
+```
+
 # How to Install
 ```
 # Clone this repository
