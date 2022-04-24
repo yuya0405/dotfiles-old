@@ -1,6 +1,6 @@
 # Preparation
 ```
-cargo install zoxide
+brew install zoxide
 ```
 
 # How to Install
